@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-stone/20;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bone text-ink font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-medium text-ink;
+  }
+
+  :focus-visible {
+    outline: 2px solid #ad8a55;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 sm:px-10 lg:px-16;
+  }
+
+  .eyebrow {
+    @apply text-[13px] text-stone tracking-wideish;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-ink text-bone px-7 py-3.5 rounded-full text-[15px] font-medium transition-all duration-300 ease-soft hover:bg-brass hover:text-ink;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-ink/70 text-ink px-7 py-3.5 rounded-full text-[15px] font-medium transition-all duration-300 ease-soft hover:border-brass hover:text-brass;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
