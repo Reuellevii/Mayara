@@ -15,7 +15,7 @@ export default function About() {
             />
           </div>
           <div className="absolute -bottom-6 -right-6 hidden sm:block bg-ink text-bone px-6 py-5 rounded-sm">
-            <p className="font-display text-2xl">+5</p>
+            <p className="font-display text-2xl">+10</p>
             <p className="text-xs text-bone/70 tracking-wideish">anos de experiência</p>
           </div>
         </div>
