@@ -19,7 +19,7 @@ export const INSTAGRAM_URL = ''
 export const SITE = {
   brandName: 'Mayara Nails',
   professionalName: 'Mayara Duarte',
-  city: 'Iguatu, CE',
+  city: 'Icó, CE',
   heroHeadline: 'Cada detalhe é pensado para valorizar suas mãos.',
   heroSubline:
     'Esmaltação em gel, alongamento e nail art com técnica, sensibilidade e acabamento de alto padrão.',
